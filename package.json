@@ -1,7 +1,7 @@
 {
-  "name": "pueblitos-names",
+  "name": "@raulcifuentes/municipios-colombia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Departamentos y Municipios de Colombia",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/RaulCifuentes/pueblitos-names.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "departamentos",
+    "municipios",
+    "colombia"
+  ],
+  "author": "Raul Cifuentes",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RaulCifuentes/pueblitos-names/issues"
   },
-  "homepage": "https://github.com/RaulCifuentes/pueblitos-names#readme"
+  "homepage": "http://raul.tropic.ninja",
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  }
 }
