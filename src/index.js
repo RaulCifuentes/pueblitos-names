@@ -7,6 +7,10 @@ function departamentos(){
     });
 }
 
+function cualquierDepartamento(){
+    return uniqueRandomArray(deptosConSusMunicipios)().departamento;
+}
+
 function pueblitos (targetDepto){
     return deptosConSusMunicipios.reduce(function (p,v,i,a) {
         if (v.departamento == targetDepto) {
@@ -22,6 +26,7 @@ function cualquierPueblito (){
 
 module.exports = {
     departamentos : departamentos,
-    pueblitos: pueblitos,
-    cualquierPueblito: cualquierPueblito
+    cualquierDepartamento: cualquierDepartamento,
+    municipios: pueblitos,
+    cualquierMunicipio: cualquierPueblito
 };
